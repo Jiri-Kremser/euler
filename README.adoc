@@ -4,3 +4,11 @@ Solutions to the problems presented on this http://projecteuler.net[website].
 
 
 
+Code should be compatible with Scala 2.9.2. You can run the calculation of problem `${PROBLEM_NUMBER}` by typing
+[source, bash]
+$scala ${PROBLEM_NUMBER}/Problem.scala
+
+or run the compiled version by typing:
+[source, bash]
+$scalac ${PROBLEM_NUMBER}/Problem.scala
+$scala ${PROBLEM_NUMBER}/Problem
